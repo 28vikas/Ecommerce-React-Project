@@ -1,0 +1,36 @@
+
+
+.footer-grid{
+    background-color: black;
+    color: white;
+    display: grid;
+    padding: 20px 0;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    /* align-items: center; */
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.footer-item{
+    padding: 20px;
+}
+
+.footer-item p{
+    margin-top: 15px;
+    color: rgb(200, 199, 199);
+}
+
+.footer-icon{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:650px) {
+    .footer-grid{
+        justify-content: start;
+        padding-left: 50px;
+    }
+}
